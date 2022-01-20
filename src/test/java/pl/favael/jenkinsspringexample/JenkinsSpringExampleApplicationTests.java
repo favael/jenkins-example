@@ -29,7 +29,7 @@ class JenkinsSpringExampleApplicationTests {
 	void shouldReturnDefaultMessage() throws Exception {
 
 		this.mockMvc.perform(MockMvcRequestBuilders
-				.get("/"))
+				.get("/job"))
 				.andDo(print())
 				.andExpect(status().isOk())
 				.andExpect(content().string("Good job Raf!"));
