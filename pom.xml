@@ -59,7 +59,7 @@
 				<configuration>
 					<appName>favael-jenkins-spring-example</appName>
 					<processTypes>
-						<web>java -jar -Dserver.port=$PORT taget/${project.build.finalName}.jar}</web>
+						<web>java -jar -Dserver.port=$PORT taget/${project.build.finalName}.jar</web>
 					</processTypes>
 				</configuration>
 			</plugin>
